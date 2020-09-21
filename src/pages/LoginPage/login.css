@@ -1,0 +1,100 @@
+.bglogin{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: #353836;
+}   
+.panellogin{
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+}
+.bgiplogin{
+    height: 60px;
+    width: 330px;
+    margin: 15px 0px 15px 0px;
+    position: relative;
+}
+.centerlogin{
+    justify-content: center;
+    align-items: center;
+}
+.inputloginstyle{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #f0f0f0;
+    padding: 0px 20px 0px 20px;
+}
+.inputloginstyle::placeholder{
+    color:  #ada6a6;
+}
+.bgbtnlogin{
+    position: absolute;
+    left: 0px;
+    top: 75px;
+    height: 45px;
+    width: 120px;
+    background-color: #2b2a28;
+    border-radius: 5px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.bgbtnlogin1{
+    position: absolute;
+    right: 10px;
+    top: 75px;
+    height: 45px;
+    width: 'auto';
+    border-radius: 5px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: bold;
+    color: #82807d;
+    cursor: pointer;
+}
+.bgbtnlogin1:hover{
+    color: #22a7cc;
+}
+.bgbtnlogin:hover{
+    background-color: #22a7cc;
+}
+.bgthongbao{
+    position: absolute;
+    left: 0px;
+    top: 130px;
+    height: 45px;
+    width: 100%;
+    border-radius: 5px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: bold;
+    color: red;
+    font-style: italic;
+}
+.imgWeb{
+    position: absolute;
+    left: 0px;
+    top: -67.5px;
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.styleimgweb{
+    height: 50px;
+    width: 50px;
+}

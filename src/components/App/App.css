@@ -1,0 +1,273 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.mb-10{
+  margin-bottom: 10px;
+}
+.mr-10{
+  margin-right: 10px;
+}
+.flexrow{
+  display: flex;
+  flex-direction: row;
+}
+.flexcolunm{
+  display: flex;
+  flex-direction: column;
+}
+.gflex1{
+  flex-grow: 1;
+}
+.bginfo{ 
+  width: 100%;
+  height: auto;
+  display: flex;
+  background-color:#eeeeee;
+  padding-bottom: 50px;
+  padding-top: 15px;
+  min-height: 95vh;
+}
+.ctinfo{
+  width: 1270px;
+  height: 100%;
+}
+.btn{
+  border-radius: 5px;
+}
+.impexcel{
+  height: 40px;
+  width: 100px;
+  background-color: blue;
+  text-align: center;
+  line-height: 40px;
+  align-items: center;
+  user-select: none;
+  margin: 10px;
+}
+.bgactiondata{
+  height: 50px;
+  width: 100%;
+  padding-right: 62px;
+}
+.flexrowEnd{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.alcenter{
+  align-items: center;
+}
+.bgctactiondata{
+  width: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  height: 70%;
+  background-color: #4bac4d;
+  color: white;
+  line-height: 35px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 3px;
+  font-weight: 550;
+}
+.bgctactiondata:hover{
+  background-color: #158c1c;
+}
+.h1filter{
+  font-size: 25px;
+  font-weight: bold;
+  text-align: left;
+  align-items: center;
+}
+.tdtable{
+  padding:5px 20px 5px 10px;
+  margin: 10px;
+  font-size: 12px;
+}
+.trthtable{
+  background-color: #dcf4fc;
+
+}
+.thtable{
+ min-width: 200px;
+ padding:10px 20px 10px 10px;
+ border-top: solid 1px #c5e7f2;
+ border-bottom: solid 1px #c5e7f2;
+}
+.clt1{
+  background-color: #f9f9f9;
+  border-top: solid 1px #e9e9e9;
+  border-bottom: solid 1px #e9e9e9;
+}
+.clt2{
+  background-color: white;
+}
+.slttb:hover{
+  background-color: #d8f0bf;
+}
+.bgtable{
+  border: solid 1px ghostwhite;
+  width: 100%;
+  position: relative;
+}
+.bgslice{
+  height: 40px;
+  width: 100%;
+}
+.bgsltslice{
+  height: 30px;
+  width: 30px;
+  color: #585e60;
+  text-align: center;
+  line-height: 30px;
+  margin: 0px 3px 0px 3px;
+  border-radius: 3px;
+}
+.clsl1{
+  background-color: yellowgreen;
+}
+.bgsltslice:hover{
+  background-color:  gray;
+}
+.scrlwxdad {
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.scrlwxdadchild{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: -17px;
+  overflow-x: scroll;
+  width: auto;
+}
+.bgflclunm{
+  height:50px;
+  width:80px;
+  position: absolute;
+  top:-51px;
+  right: 0;
+}
+.bgctactionfl{
+  width: 55px;
+  height: 70%;
+  background-color: #4bac4d;
+  color: white;
+  line-height: 35px;
+  border-radius: 3px;
+  font-weight: 550;
+  position: relative;
+}
+.bgctactionfl:hover{
+  background-color: #158c1c;
+}
+.pd5{
+  padding: 0px 5px 0px 5px;
+}
+.bgctfl{
+  background-color: #4bac4d;
+  width: 360px;
+  height: auto;
+  position: absolute;
+  top: 36px;
+  right: 0px;
+  z-index: 100;
+  flex-wrap: wrap;
+  padding: 2px 0px 2px 0px;
+}
+.ctfilter{
+  width: 180px;
+  height: 30px;
+  text-align: left;
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 30px;
+}
+.ctfilter:hover{
+  background-color: #106914;
+}
+.bgimagepopub{
+  background-image:url(./../../image/bgpopub.png);
+  z-index:101;
+  width:100%;
+  height:100%;
+  position:absolute;
+  top:0px;
+}
+.flexcenter{
+  justify-content: center;
+}
+.bgmessenimp{
+  position: absolute;
+  bottom:50px;
+  right: 50px;
+}
+.bgTest{
+  width:100%;
+  height:auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 10px 0px 10px;
+}
+.example-custom-input{
+  background-color: #DCF4FC;
+  border-radius: 5px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  width: 100px;
+  position: relative;
+}
+.bglistcontrol3{
+  height: 25px;
+  width: 100%;
+  line-height: 25px;
+  color: black;
+  display: flex;
+  flex-direction: row;
+  margin-top: 7px;
+  align-items: center;
+}
+.bgcustom-input{
+  height: 30px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+.txtbgcustom-input{
+  color: #b7b7a8;
+  font-size: 12px;
+}
